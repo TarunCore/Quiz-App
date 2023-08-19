@@ -3453,7 +3453,7 @@
         "id": "(sc_client)/./components/Button/Button.tsx",
         "name": "*",
         "chunks": [
-          "app/page:static/chunks/app/page.js"
+          "app/quiz/page:static/chunks/app/quiz/page.js"
         ],
         "async": false
       },
@@ -3461,7 +3461,7 @@
         "id": "(sc_client)/./components/Button/Button.tsx",
         "name": "",
         "chunks": [
-          "app/page:static/chunks/app/page.js"
+          "app/quiz/page:static/chunks/app/quiz/page.js"
         ],
         "async": false
       },
@@ -3469,7 +3469,33 @@
         "id": "(sc_client)/./components/Button/Button.tsx",
         "name": "default",
         "chunks": [
-          "app/page:static/chunks/app/page.js"
+          "app/quiz/page:static/chunks/app/quiz/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/quiz/Quiz.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/quiz/Quiz.tsx",
+        "name": "*",
+        "chunks": [
+          "app/quiz/page:static/chunks/app/quiz/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/quiz/Quiz.tsx",
+        "name": "",
+        "chunks": [
+          "app/quiz/page:static/chunks/app/quiz/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/quiz/Quiz.tsx",
+        "name": "default",
+        "chunks": [
+          "app/quiz/page:static/chunks/app/quiz/page.js"
         ],
         "async": false
       }
@@ -10922,6 +10948,20 @@
       ],
       "async": false
     },
+    "D:\\CSE\\React Projects\\Quiz App\\app\\globals.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "D:\\CSE\\React Projects\\Quiz App\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\layout.tsx\",\"import\":\"Quicksand\",\"arguments\":[{\"subsets\":[\"latin\"],\"variable\":\"--font-quicksand\"}],\"variableName\":\"quicksand\"}#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
     "D:\\CSE\\React Projects\\Quiz App\\app\\page.tsx": {
       "id": "(app-client)/./app/page.tsx",
       "name": "*",
@@ -10950,7 +10990,7 @@
       "id": "(app-client)/./components/Button/Button.tsx",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/quiz/page:static/chunks/app/quiz/page.js"
       ],
       "async": false
     },
@@ -10958,7 +10998,7 @@
       "id": "(app-client)/./components/Button/Button.tsx",
       "name": "",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/quiz/page:static/chunks/app/quiz/page.js"
       ],
       "async": false
     },
@@ -10966,23 +11006,57 @@
       "id": "(app-client)/./components/Button/Button.tsx",
       "name": "default",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/quiz/page:static/chunks/app/quiz/page.js"
       ],
       "async": false
     },
-    "D:\\CSE\\React Projects\\Quiz App\\app\\globals.css#": {
-      "id": "null",
-      "name": "default",
+    "D:\\CSE\\React Projects\\Quiz App\\app\\quiz\\Quiz.tsx": {
+      "id": "(app-client)/./app/quiz/Quiz.tsx",
+      "name": "*",
       "chunks": [
-        "static/css/app/layout.css"
-      ]
+        "app/quiz/page:static/chunks/app/quiz/page.js"
+      ],
+      "async": false
     },
-    "D:\\CSE\\React Projects\\Quiz App\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\layout.tsx\",\"import\":\"Quicksand\",\"arguments\":[{\"subsets\":[\"latin\"],\"variable\":\"--font-quicksand\"}],\"variableName\":\"quicksand\"}#": {
-      "id": "null",
+    "D:\\CSE\\React Projects\\Quiz App\\app\\quiz\\Quiz.tsx#": {
+      "id": "(app-client)/./app/quiz/Quiz.tsx",
+      "name": "",
+      "chunks": [
+        "app/quiz/page:static/chunks/app/quiz/page.js"
+      ],
+      "async": false
+    },
+    "D:\\CSE\\React Projects\\Quiz App\\app\\quiz\\Quiz.tsx#default": {
+      "id": "(app-client)/./app/quiz/Quiz.tsx",
       "name": "default",
       "chunks": [
-        "static/css/app/layout.css"
-      ]
+        "app/quiz/page:static/chunks/app/quiz/page.js"
+      ],
+      "async": false
+    },
+    "D:\\CSE\\React Projects\\Quiz App\\components\\QuestionCard\\QuestionCard.tsx": {
+      "id": "(app-client)/./components/QuestionCard/QuestionCard.tsx",
+      "name": "*",
+      "chunks": [
+        "app/quiz/page:static/chunks/app/quiz/page.js"
+      ],
+      "async": false
+    },
+    "D:\\CSE\\React Projects\\Quiz App\\components\\QuestionCard\\QuestionCard.tsx#": {
+      "id": "(app-client)/./components/QuestionCard/QuestionCard.tsx",
+      "name": "",
+      "chunks": [
+        "app/quiz/page:static/chunks/app/quiz/page.js"
+      ],
+      "async": false
+    },
+    "D:\\CSE\\React Projects\\Quiz App\\components\\QuestionCard\\QuestionCard.tsx#default": {
+      "id": "(app-client)/./components/QuestionCard/QuestionCard.tsx",
+      "name": "default",
+      "chunks": [
+        "app/quiz/page:static/chunks/app/quiz/page.js"
+      ],
+      "async": false
     }
   }
 }
