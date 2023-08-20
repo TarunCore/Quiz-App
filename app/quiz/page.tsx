@@ -16,7 +16,7 @@ const getQuestions = async (amount: number, difficulty: Difficulty): Promise<Que
 };
 
 const Home = async () => {
-  const questions = await getQuestions(TOTAL_QUESTIONS, Difficulty.EASY);
+  const questions = await getQuestions(TOTAL_QUESTIONS, Difficulty.MEDIUM);
 
   return <Quiz questions={questions} totalQuestions={TOTAL_QUESTIONS} />;
 };

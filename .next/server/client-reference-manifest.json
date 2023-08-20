@@ -3499,6 +3499,58 @@
         ],
         "async": false
       }
+    },
+    "(app-client)/./components/QuestionCard/QuestionCard.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/QuestionCard/QuestionCard.tsx",
+        "name": "*",
+        "chunks": [
+          "app/quiz/page:static/chunks/app/quiz/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./components/QuestionCard/QuestionCard.tsx",
+        "name": "",
+        "chunks": [
+          "app/quiz/page:static/chunks/app/quiz/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./components/QuestionCard/QuestionCard.tsx",
+        "name": "default",
+        "chunks": [
+          "app/quiz/page:static/chunks/app/quiz/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./components/QuestionCard/helpers.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/QuestionCard/helpers.tsx",
+        "name": "*",
+        "chunks": [
+          "app/quiz/page:static/chunks/app/quiz/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./components/QuestionCard/helpers.tsx",
+        "name": "",
+        "chunks": [
+          "app/quiz/page:static/chunks/app/quiz/page.js"
+        ],
+        "async": false
+      },
+      "getBGColor": {
+        "id": "(sc_client)/./components/QuestionCard/helpers.tsx",
+        "name": "getBGColor",
+        "chunks": [
+          "app/quiz/page:static/chunks/app/quiz/page.js"
+        ],
+        "async": false
+      }
     }
   },
   "edgeSSRModuleMapping": {},
@@ -11053,6 +11105,30 @@
     "D:\\CSE\\React Projects\\Quiz App\\components\\QuestionCard\\QuestionCard.tsx#default": {
       "id": "(app-client)/./components/QuestionCard/QuestionCard.tsx",
       "name": "default",
+      "chunks": [
+        "app/quiz/page:static/chunks/app/quiz/page.js"
+      ],
+      "async": false
+    },
+    "D:\\CSE\\React Projects\\Quiz App\\components\\QuestionCard\\helpers.tsx": {
+      "id": "(app-client)/./components/QuestionCard/helpers.tsx",
+      "name": "*",
+      "chunks": [
+        "app/quiz/page:static/chunks/app/quiz/page.js"
+      ],
+      "async": false
+    },
+    "D:\\CSE\\React Projects\\Quiz App\\components\\QuestionCard\\helpers.tsx#": {
+      "id": "(app-client)/./components/QuestionCard/helpers.tsx",
+      "name": "",
+      "chunks": [
+        "app/quiz/page:static/chunks/app/quiz/page.js"
+      ],
+      "async": false
+    },
+    "D:\\CSE\\React Projects\\Quiz App\\components\\QuestionCard\\helpers.tsx#getBGColor": {
+      "id": "(app-client)/./components/QuestionCard/helpers.tsx",
+      "name": "getBGColor",
       "chunks": [
         "app/quiz/page:static/chunks/app/quiz/page.js"
       ],

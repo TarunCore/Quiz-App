@@ -1,7 +1,5 @@
-import Image from 'next/image';
+
 import { Quicksand } from 'next/font/google';
-// Logo
-import Logo from '@/assets/react-quiz-logo.svg';
 import './globals.css';
 
 const quicksand = Quicksand({
@@ -21,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
-      <body className='bg-[#2b2737] p-4'>
+      <body className='bg-[#483D8B] p-4'>
         <main className={`${quicksand.variable} font-quicksand max-w-[900px] w-full m-auto flex flex-col items-center`}>
           {children}
         </main>
